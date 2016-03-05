@@ -5,6 +5,8 @@ var express = require("express"),
 app.use(express.static(__dirname + '/app'));
 app.use(express.static(__dirname + '/bower_components'));
 
+//this is a comment
+
 
 app.get('/', function(req, res){
    
